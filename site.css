@@ -11,6 +11,7 @@ main h1 {
 	font-family: "Open Sans Condensed", sans-serif;
 	padding: 20px;
 	margin: 0;
+	text-transform: uppercase;
 }
 
 main a {
@@ -73,4 +74,24 @@ footer {
 	background-color: #000;
 	color: #F2FFFC;
 	padding: 20px;
+}
+.icones-sociais a {
+	background-image: url(github.png);
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -99999px;
+
+}
+.github {
+	background-image: url(github.png);
+}
+.twitter {
+	background-image: url(twitter.png);
+
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
+
 }
