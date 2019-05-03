@@ -138,18 +138,22 @@ main {
 	width: 85%;
 }
 
+aside,
 .minha-foto, .navegacao-site {
 	float: right;
 	box-sizing: border-box;
 	border-left: 10px solid black;
-	width: 15%;
 	border-bottom: 10px solid black;
 }
 aside {
-	clear: right;
+	clear: right; width: 15%;
+	position: relative;
+	top: 310px;
 }
 footer {
 	clear: both;
+	position: fixed;
+	bottom: 0;
 }
 cite {
 	font-style: italic;
@@ -158,6 +162,6 @@ cite {
 
 .minha-foto {
 	position: absolute;
-	top: 50px;
-	right: 50px;
+	top: 0px;
+	right: 0px;
 }
