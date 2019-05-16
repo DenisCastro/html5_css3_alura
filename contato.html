@@ -14,7 +14,43 @@
         <main>
             <h1 class="titulo-principal">Contato</h1>
             <div class="container">
-                <!--Formulario Aqui-->
+                <form>
+                    <fieldset>
+                        <legend>Seus dados</legend>
+                        <label for="nome">Nome completo: </label>
+                        <input id="nome" type="text" name="nome" required autofocus pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres">
+                        <label for="email">E-mail</label>
+                        <input id="email" name="email" required placeholder="seu@email.com"> 
+                    </fieldset>
+                    <fieldset>
+                        <legend>Assunto</legend>
+                        <label>
+                            <input type="radio" name="assunto" value="blog">
+                            Blog
+                        </label>
+                        <label>
+                            <input type="radio" name="assunto" value="Serviço">
+                            Serviço
+                        </label>
+                        <fieldset>
+                            <input type="radio" name="assunto" value="outro" id="outro">
+                            <label for="outro">
+                                Outro
+                            </label>
+                            <input type="text" name="outro-assunto">
+
+                            <!-- <select name="assunto">
+                                    <option value="blog">Blog</option>
+                                    <option value="servico">Serviço</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            -->
+                        </fieldset>
+                    </fieldset>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" cols="60" rows="10" placeholder="Digite aqui sua mensagem:"></textarea>
+                    <button type="submit">Enviar mensagem</button>
+                </form>
             </div>
         </main>
         <img src="imagens/eu.jpg" alt="Minha foto" class="minha-foto">
