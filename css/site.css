@@ -48,6 +48,7 @@ main p {
 
 .navegacao-site {
     text-align: center;
+    width: calc(0.9 * 300px);
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 1em;
